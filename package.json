@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Generate WP Child Theme Boilerplate",
   "main": "dist/index.js",
+  "bin": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "ts-node-dev --respawn src/index.ts",
+    "prepublishOnly": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jacob Stordahl",
@@ -23,5 +25,13 @@
   "dependencies": {
     "fs-extra": "^9.1.0",
     "inquirer": "^8.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stordahl/daycare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stordahl/daycare/issues"
+  },
+  "homepage": "https://github.com/stordahl/daycare#readme"
 }
