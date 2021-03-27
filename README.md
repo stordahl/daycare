@@ -3,19 +3,20 @@
 
 Daycare is an iteractive CLI tool that generates the boilerplate for a WordPress Child theme.
 
-Questions:
+## Getting Started
 
-Style
+To use daycare navigate to wp-content/themes in your terminal, create a directory for your child theme, change into that new directory.
 
-- [x] Name of theme: text
-- [x] Author Name: text
-- [x] Description: text
-- [x] Template: text
-- [x] Version: text
-- [x] Liscense: options
-- [x] Text Domain: text
+Then simply run `npx daycare`
 
-Functions
-*Issue*: need to detect how parent theme is enquing styles
-*Current Work Around*: generate file with both snippets, with one commented out
+```shell
+mkdir mytheme-child && cd mytheme-child
+npx daycare
+```
+
+## Roadmap / Current Issues
+
+- [ ] Need to detect how parent theme is enquing styles | *Current Work Around*: generate functions.php with both snippets, with one commented out
+- [ ] Add in CSS reset import options
+- [ ] Add in Gulp config generation
 
