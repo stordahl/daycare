@@ -1,7 +1,7 @@
 
 # Daycare
 
-Daycare is an iteractive CLI tool that generates the boilerplate for a WordPress Child theme.
+Daycare is an interactive CLI tool that generates the boilerplate for a WordPress Child theme.
 
 ## Getting Started
 
@@ -19,4 +19,5 @@ npx daycare
 - [ ] Need to detect how parent theme is enquing styles | *Current Work Around*: generate functions.php with both snippets, with one commented out
 - [ ] Add in CSS reset import options
 - [ ] Add in Gulp config generation
+- [ ] Add  custom GH action to create auto deploy on push/merge via ftp
 
